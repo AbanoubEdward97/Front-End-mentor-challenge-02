@@ -12,14 +12,9 @@ body{
 .card{
 
     background-color:white;
-    border-radius:10px;
-    margin: 25px auto;
+    border-radius:15px;
+    margin: 80px auto;
     overflow:hidden;
-}
-@media(max-width:1440px){
-    .card{
-        width:600px
-    }
 }
 @media(min-width:571px){
     .card{
@@ -60,7 +55,7 @@ p{
     align-items:center;
     justify-content:space-between;
     padding:24px;
-    border-radius:10px
+    border-radius:15px
 }
 .text{
     display:flex;
@@ -73,15 +68,17 @@ p{
 .text .pricing span{
     display:block
 }
-.text .pricing span:first-child{
-    font-weight:bold;
+.text .pricing h3{
+    font-weight:900;
     color:#223249;
+    margin:0
 }
 .text .pricing span:nth-child(2){
     color:#717693;
 }
 .plan a{
     color:#321ed8;
+    font-weight:700
 }
 .plan a:hover {
     text-decoration:none;
@@ -96,7 +93,7 @@ p{
     background-color:hsl(245, 75%, 52%);
     margin:auto;
     padding:15px 24px;
-    border-radius:10px;
+    border-radius:15px;
     box-shadow: 0 20px 24px hsl(225, 100%, 94%);
 }
 .payment:hover{
@@ -106,6 +103,7 @@ p{
 .payment a{
     text-decoration:none;
     color:inherit;
+    font-weight:bold
 }
 .cancel{
     padding:25px 0 50px 0;
