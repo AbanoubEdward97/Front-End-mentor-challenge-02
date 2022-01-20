@@ -1,0 +1,119 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-image:url("images/pattern-background-desktop.svg");
+    background-size:100% 50%;
+    background-repeat:no-repeat;
+    background-color:hsl(225, 100%, 94%);
+}
+.card{
+
+    background-color:white;
+    border-radius:10px;
+    margin: 25px auto;
+    overflow:hidden;
+}
+@media(max-width:1440px){
+    .card{
+        width:600px
+    }
+}
+@media(min-width:571px){
+    .card{
+        width:500px
+    }
+}
+@media(max-width:570px){
+    .card{
+        width:375px;
+    };
+}
+/* image */
+img.cover{
+    width:100%
+}
+/* heading h1 */
+h1{
+    margin-top:54.048px;
+    text-align: center;
+    color:#223249;
+    font-weight:900
+}
+/* paragraph */
+p{
+    margin:33.984px auto 0;
+    text-align:center;
+    width:70%;
+    color:#777b96;
+    font-size:16px;
+    line-height:2
+}
+/* start plan */
+.plan{
+    display:flex;
+    background-color:hsl(225, 100%, 98%);
+    width:80%;
+    margin:24px auto 31.968px auto;
+    align-items:center;
+    justify-content:space-between;
+    padding:24px;
+    border-radius:10px
+}
+.text{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.text img{
+    margin-right:19px;
+}
+.text .pricing span{
+    display:block
+}
+.text .pricing span:first-child{
+    font-weight:bold;
+    color:#223249;
+}
+.text .pricing span:nth-child(2){
+    color:#717693;
+}
+.plan a{
+    color:#321ed8;
+}
+.plan a:hover {
+    text-decoration:none;
+    color:#766cf1;
+}
+/* end plan */
+.payment{
+    width:80%;
+    text-align:center;
+    display:block;
+    color:white;
+    background-color:hsl(245, 75%, 52%);
+    margin:auto;
+    padding:15px 24px;
+    border-radius:10px;
+    box-shadow: 0 20px 24px hsl(225, 100%, 94%);
+}
+.payment:hover{
+    cursor:pointer;
+    background-color:#766cf1
+}
+.payment a{
+    text-decoration:none;
+    color:inherit;
+}
+.cancel{
+    padding:25px 0 50px 0;
+    text-align:center;
+    display:block;
+    font-weight:900;
+}
+.cancel a{
+    text-decoration:none;
+    color:#717693;
+}

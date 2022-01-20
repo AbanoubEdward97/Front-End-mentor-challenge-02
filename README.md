@@ -1,2 +1,4 @@
-# Front-End-mentor-challenge-02
-this is a challenge from front end mentor website to practice html and Css along with responsive design
+This challenge is about applying an order-summary component 
+The tools used for this challenge are :Html , Css and google fonts 
+please give me a feedback on my code 
+thank you!!
